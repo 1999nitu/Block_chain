@@ -1623,7 +1623,6 @@ section.copyright {
     }
 }
 
-
 @media (max-width: 767px) {
     .clients {
         padding-left: 28px;
@@ -1727,6 +1726,7 @@ section.copyright {
     .digital-heading h2 {
         font-size: 26px;
         font-weight: 600;
+        line-height: 45px;
     }
     section.digital-future {
       
@@ -1782,6 +1782,36 @@ section.copyright {
         background: linear-gradient(90deg, rgba(242, 246, 254, 0) 62.34%, #DBE7FF 100%);
     }
 
+}
+
+@media (max-width: 400px) {
+
+    .banner-left-content p {
+        font-size: 23px;
+        text-align: center;
+    }
+    .banner-left-content h1 {
+        font-size: 36px;
+    }
+    .banner-left-content {
+        text-align: center;
+    }
+    .row.chooses {
+        gap: 30px;
+        margin: auto;
+    }
+    .row.gaps {
+        margin-top: 32px;
+        gap: 30px;
+       
+        margin: auto;
+    }
+    .main-solution h4 {
+        line-height: 36.25px;
+    }
+    .main-solution span {
+        line-height: 47px;
+    }
 }
 
 @media (max-width: 360px) {
